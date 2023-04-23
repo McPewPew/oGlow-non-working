@@ -7,10 +7,10 @@ bags.lua uses it like this -
   
 local self
 hooksecurefunc("ContainerFrame_OnShow", function()  
-	self = this  
-	if(ContainerFrame1.bagsShown > 0) then  
-		frame:RegisterEvent"BAG_UPDATE"  
-		up[self] = true  
-		frame:Show()  
-	end  
+     self = this  
+        if(ContainerFrame1.bagsShown > 0) then  
+              frame:RegisterEvent"BAG_UPDATE"  
+              up[self] = true  
+                frame:Show()  
+        end  
 end)  
