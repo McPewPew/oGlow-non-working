@@ -10,3 +10,10 @@ core\glow.lua
 core\char.lua
 core\inspect.lua
 core\mail.lua
+core\bank.lua
+core\craft.lua
+##core\trade.lua
+##core\bags.lua
+##core\craft.lua
+##core\merchant.lua
+##core\tradeskill.lua
